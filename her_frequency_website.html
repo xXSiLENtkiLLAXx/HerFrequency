@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HerFrequency | South Africa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf7f5;
+      --text: #1f1f1f;
+      --muted: #6b6b6b;
+      --accent: #c89b7b;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(rgba(250,247,245,0.9), rgba(250,247,245,0.9)), url('https://images.unsplash.com/photo-1520975922284-7b3be8f3a3b3');
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3rem, 6vw, 5rem);
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 600px;
+    }
+
+    section {
+      padding: 5rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .about p {
+      max-width: 700px;
+      color: var(--muted);
+    }
+
+    .bookings {
+      background-color: var(--white);
+      border-radius: 16px;
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .bookings p {
+      margin-bottom: 2rem;
+      color: var(--muted);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 2rem;
+      background-color: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(200,155,123,0.4);
+    }
+
+    footer {
+      padding: 3rem 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      display: block;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HerFrequency</h1>
+    <p>A modern women-focused collective rooted in South Africa — elevating voices, connection, and intention.</p>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">Who We Are</h2>
+    <p><em>Still to come.</em></p>
+  </section>
+
+  <section>
+    <div class="bookings">
+      <h2 class="section-title">Bookings</h2>
+      <p>Our booking experience is currently being curated. Please check back soon or connect with us directly.</p>
+      <a href="#" class="btn">Coming Soon</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 HerFrequency
+    <span>South Africa</span>
+  </footer>
+
+</body>
+</html>
